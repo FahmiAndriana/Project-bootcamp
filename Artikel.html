@@ -1,0 +1,211 @@
+<!doctype HTML>
+<HTML Lang="en-US">
+		<Head>
+			<title>Latihan Markup</title>
+			<meta charset="UTF-8">
+			<style>
+                *{
+                    text-decoration: none;
+                    margin: 0px;
+                    padding: 0px;
+                }
+                body{
+                    margin: 0px;
+                    padding: 0px;
+                    forn family: 'open sans', sans-serif;
+
+                }
+                #Wrapper{
+                    width: 1100px;
+                    margin: auto;
+                    position: relative;
+                    padding-bottom: 20px;
+                }
+                #logo a {
+                    font-size: 50px;
+                    font-weight: bold;
+                    float: left;
+                    font-family: courier;
+                    color:#142F43;
+                }
+                #menu{
+                    float: right;
+    
+                }
+                nav {
+                    width: 100%;
+                    margin: auto;
+                    display: flex;
+                    line-height: 60px;
+                    position: sticky;
+                    position: -webkit-sticky;
+                    top: 0;
+                    background: #ffffff;
+                    z-index: 1;
+                    border-bottom: 1px solid #142F43;
+        
+    
+                }
+                nav ul{
+                    list-style-type: none;
+                    margin: 0;
+                    padding: 0;
+                    overflow: hidden;
+                    float: right;
+    
+                }
+                nav ul li{
+                    float: left;
+                }
+    
+                nav ul li a{
+                    color: black;
+                    font-weight: bold;
+                    text-align: center;
+                    padding: 0px 16px 0px 16px;
+                    text-decoration: none;
+    
+                }
+                nav ul li a:hover{
+                    text-decoration: underline;
+                }
+                #Daftar {
+	                width: x;
+	                float: left;
+                    margin: 30px;
+                }
+                .Artikel{
+		            background: #ffffff;
+		            padding: 10px;
+		            margin-bottom: 20px;
+		            overflow: hidden;
+                }
+                .Artikel img{
+		            float: left;
+		            margin-right: 10px;
+		            width: 200px;
+		            height: 165px;
+                }
+                .Artikel b{
+		            color: #616060;
+		            background: #DDDDDD;
+		            padding: 3px;
+		            font-size: 12px;
+		            font-weight: blod;
+		            margin-right: 10px;
+                }
+                .Artikel p{
+	                margin: 10px 0;
+                }
+                .Artikel a{
+	                display: block;
+	                text-align: right;
+	                color: #636363;
+                    }
+                .Artikel a:Hover{
+	                background-color: lightskyblue;
+	                color: white;
+                }
+                #Sidebar{
+		
+		            width: 270px;
+		            float: left;
+                    margin: 30px;
+                }
+                #Sidebar h2{
+		            font-size: 18px;
+		            margin: 10px 0;
+                }
+                #Sidebar p{
+		            line-height: 20px;
+		            color : #636363;
+                }
+                #Sidebar ul{
+		            margin-left: 10px;
+                }
+                #Sidebar ul li a{
+		            color: #636363;
+		            text-decoration: none;
+                }
+                #Footer{
+		            clear:both;
+		            margin: 20px 0;
+		            text-align: center;
+            		background-color: #f0f0f0;
+		            padding: 5px;
+		            color: #555555;
+                }
+            </style>
+			
+		</Head>
+		
+		<body>
+			<Div id="Wrapper">
+				    <!--untuk menu Navigasi-->
+                    <nav>
+                        
+                            
+                            <div id="logo"><a href="">Fahmi Andriana.</a></div>
+                            <div id="menu">
+                                <!--unsur semantik-->
+                                <ul>
+                                    <li><a href="Home">Home</a></li>
+                                    <li><a href="Course">Course</a></li>
+                                    <li><a href="Tutors">Profile</a></li>
+                                    <li><a href="Article">Article</a></li> 
+                                    <li><a href="" class="tbl-biru">Sign Up</a></li> 
+                                </ul>
+                            </div>
+                        
+                
+                    </nav>
+                    <!--untuk Artikel-->
+				<Div id="Daftar">
+						<Div Class="Artikel">
+							<img src="file:///D:/Documents/Fullstack%20Depelover/Latiham%20Markup/Image/1.jpg" alt="Gambar Artikel"/>
+							<h1> Gates VS Jobs </h1>
+							<b>Feb 12, 2007 </b><b>Views : 5,000,321</b>
+							<p>Bill Gates and Steve Jobs Square off in the clean white virtual world if the iconic Mac ads</p>
+							<a href="">Watch This</a>
+						</Div>
+						<Div Class="Artikel">
+							<img src="file:///D:/Documents/Fullstack%20Depelover/Latiham%20Markup/Image/1.jpg" alt="Gambar Artikel"/>
+							<h1> Tesla </h1>
+							<b>Feb 12, 2007 </b><b>Views : 5,000,321</b>
+							<p>Bill Gates and Steve Jobs Square off in the clean white virtual world if the iconic Mac ads</p>
+							<a href="">Watch This</a>
+						</Div>
+						<Div Class="Artikel">
+							<img src="file:///D:/Documents/Fullstack%20Depelover/Latiham%20Markup/Image/1.jpg" alt="Gambar Artikel"/>
+							<h1> Gates VS Jobs </h1>
+							<b>Feb 12, 2007 </b><b>Views : 5,000,321</b>
+							<p>Bill Gates and Steve Jobs Square off in the clean white virtual world if the iconic Mac ads</p>
+							<a href="">Watch This</a>
+						</Div>
+					
+				</Div>
+                <!--Untuk Sidebar-->
+				<Div Id="Sidebar">
+				<h2>Who We Are?</h2>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto repudiandae natus rerum? Debitis temporibus explicabo voluptas eius qui illum consequatur.
+				</p>
+				
+				<h2> Video Berdasarkan Kategori</h2>
+				<ul>
+					<li><a href="">HTML dan CSS</a></li>
+					<li><a href="">Javascript</a></li>
+					<li><a href="">Photoshop</a></li>
+					<li><a href="">Inspirasi</a></li>
+					<li><a href="">Berita</a></li>
+					<li><a href="">Off Topic</a></li>
+				</ul>
+			</Div>
+            <!--untuk sidebar-->
+				<Div Id="Footer">
+					<p>Fahmi Andriana</p>
+				<div style="clear:both;"></div>	
+				</Div>
+			</Div>	
+		</body>
+</HTML>
+			
